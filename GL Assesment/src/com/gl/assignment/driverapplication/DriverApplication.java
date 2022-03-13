@@ -1,7 +1,7 @@
 package com.gl.assignment.driverapplication;
 
-import com.gl.assignment.credentialservice.*;
-import com.gl.assignment.employee.*;
+import com.gl.assignment.credentialservice.CredentialService;
+import com.gl.assignment.employee.Employee;
 import java.util.Scanner;
 
 /*
