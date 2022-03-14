@@ -31,12 +31,11 @@ public class DriverApplication {
 			// Scanner method to take input choice from user
 			
 			choice = scanner.nextInt();
-			retrieveDept(choice,scanner);
+			retrievedept(choice,scanner);
 
 		} while (choice != 0);
 
 	scanner.close();
-
 	}
 
 	/**
@@ -53,7 +52,7 @@ public class DriverApplication {
 	 *                       email_address
 	 * 
 	 */
-	public static void retrieveDept(int choice,Scanner scanner) {
+	public static void retrievedept(int choice,Scanner scanner) {
 		
 		if (choice != 0) {
 			
@@ -92,10 +91,7 @@ public class DriverApplication {
 			case 4:
 				
 				departmentName = "legal";
-				
-				
 			
-				
 				break;
 				
 			default:
